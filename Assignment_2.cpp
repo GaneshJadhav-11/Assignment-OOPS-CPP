@@ -123,3 +123,30 @@ int main()
 
     return 0;
 }
+
+
+
+
+
+
+
+// Output:
+// Enter Number of Customers: 1
+
+// Enter Account Number: 1
+// Enter Customer Name: Ganesh
+// Enter Initial Balance: 1000
+
+// Parameterized Constructor CalledEnter Deposit Amount: 200
+// Enter Withdrawal Amount: 100
+
+
+// ACCOUNT DETAILS
+// ---------------------------
+// Account Number : 1
+// Customer Name  : Ganesh
+// Balance        : 1100
+// ---------------------------
+// Destructor Called for Account: 1
+// Total Bank Accounts: 1
+// Destructor Called for Account: 1
