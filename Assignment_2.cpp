@@ -11,7 +11,7 @@ private:
     static int totalAccounts;
 
 public:
-    // Parameterized Constructor
+
     BankAccount(int accNo, string name, double bal)
     {
         accountNumber = accNo;
@@ -21,14 +21,14 @@ public:
         cout << "\nParameterized Constructor Called";
     }
 
-    // Destructor
+    
     ~BankAccount()
     {
         cout << "\nDestructor Called for Account: "
              << accountNumber;
     }
 
-    // Deposit Function
+    
     void deposit(double amount)
     {
         balance += amount;
@@ -43,20 +43,19 @@ public:
             cout << "\nInsufficient Balance!";
     }
 
-    // Static Function
+    
     static void showTotalAccounts()
     {
         cout << "\nTotal Bank Accounts: " << totalAccounts;
     }
 
-    // Friend Function
+    
     friend void displayAccount(BankAccount acc);
 };
 
-// Static member initialization
+
 int BankAccount::totalAccounts = 0;
 
-// Friend Function
 void displayAccount(BankAccount acc)
 {
     cout << "\n---------------------------";
