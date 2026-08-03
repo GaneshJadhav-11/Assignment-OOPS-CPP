@@ -80,22 +80,23 @@ int main(){
 
 
 
-// int main(){
-//     int work_days,leave_days,salary,perday_salary,bonus;
-//     do{
-//         cout<<"enter working days"<<endl;
-//         cin>>work_days;
-//          cout<<"enter leave days"<<endl;
-//         cin>>leave_days;
-//         cout<<"Enter per day salary:"<<endl;
-//         cin>>perday_salary;
-//         cout<<"enter bonus"<<endl;
-//         cin>>bonus;
-//         salary=work_days*perday_salary-(leave_days*perday_salary)+bonus;
-//         cout<<"Salary is:"<<salary<<endl;
-
-//         cout<<"Do you wish to continue if yes press 1 else press 0"<<endl;
-
-//     }
-    
-// }
+// Output:
+// company name:scoe
+// Enter number of employees1
+// employee1details
+// Enter employee id:1
+// Enter employee name:
+// Ganesh
+// Attendance days:
+// 25
+// Enter per day salary
+// 1000
+// Enter overtime hrs:
+// 10
+// Payroll report
+// Enter employee id:1
+// Enter employee name:Ganesh
+// Attendance days:25
+// Enter per day salary1000
+// Enter overtime hrs:10
+// Net salary31250
