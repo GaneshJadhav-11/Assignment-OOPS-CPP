@@ -71,7 +71,7 @@ int main()
     cout << "Enter Number of Customers: ";
     cin >> n;
 
-    // Dynamic allocation of pointer array
+    
     BankAccount **account = new BankAccount*[n];
 
     int accNo;
@@ -91,7 +91,7 @@ int main()
         cout << "Enter Initial Balance: ";
         cin >> balance;
 
-        // Create object using parameterized constructor
+        
         account[i] = new BankAccount(accNo, name, balance);
 
         cout << "Enter Deposit Amount: ";
@@ -112,7 +112,7 @@ int main()
 
     BankAccount::showTotalAccounts();
 
-    // Free memory
+    
     for (int i = 0; i < n; i++)
     {
         delete account[i];
